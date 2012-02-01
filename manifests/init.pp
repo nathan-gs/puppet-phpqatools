@@ -108,4 +108,8 @@ class phpqatools {
 		repository => "pear.netpirates.net"
 	}
 
+	pear::package { "DocBlox":
+		version => 'latest',
+		repository => "pear.docblox-project.org"
+	}
 }
